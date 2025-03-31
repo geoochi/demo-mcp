@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "weather-py": {
+      "command": "<YOUR_PROJECT_PATH>/python",
+      "args": ["<YOUR_PROJECT_PATH>/demo-mcp/src/weather.py"]
+    },
+    "weather-ts": {
+      "command": "node",
+      "args": ["<YOUR_PROJECT_PATH>/demo-mcp/src/weather.ts"]
+    }
+  }
+}
